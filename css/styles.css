@@ -33,6 +33,15 @@ header {
     font-weight: 600;
 }
 
+a {
+    text-decoration: none;   /* remove o sublinhado */
+    color: inherit;          /* herda a cor do elemento pai */
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
 .search-box {
     position: absolute;
     top: 25px;
